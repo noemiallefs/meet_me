@@ -70,7 +70,7 @@ const query = graphql`
         defaultDescription: description
         defaultKeywords: keywords
         defautlAuthor: author
-        siteUrl: url
+        siteUrl: siteUrl
       }
     }
   }
