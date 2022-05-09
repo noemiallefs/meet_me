@@ -6,12 +6,12 @@ import { COLORS } from "../styles/Colors";
 
 const SectionMasthead = styled.section`
   display: block;
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  height: 100%;
   background: ${COLORS.primary}; 
   align-items: center; 
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 `
 const HeaderMasthead = styled.h1`
   color: ${COLORS.gray900};
@@ -46,20 +46,20 @@ const Button = styled.button`
     background-color: ${COLORS.black30}
   }
   position: relative;
-  top: 18%;
+  margin-top: 7px;
 `
 const VerticalLineTop = styled.div`
   border-left: 0.5px solid ${COLORS.black};
   position: relative;
-  height: 33vh;
-  top: 0%;
+  height: 35vh;
+  margin-bottom: 40px;
   margin-left: 50%;
 `
 const VerticalLineBottom = styled.div`
   border-left: 0.5px solid ${COLORS.black};
   position: relative;
-  top: 17%;
-  height: 24vh;
+  margin-top: 50px;
+  height: 29vh;
   margin-left: 50%;
 `
 

@@ -6,12 +6,6 @@ import { COLORS } from './Colors';
 const GlobalStyle = createGlobalStyle`
   ${reset}
 
-  *, *:before, *:after {
-    box-sizing: border-box;
-  }
-  html {
-    box-sizing: border-box;
-  }
   body {
     margin: 0;
     font-family: "Rajdhani";

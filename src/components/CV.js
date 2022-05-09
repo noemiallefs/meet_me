@@ -7,7 +7,6 @@ const SectionCV = styled.section`
   text-align: center;
   background: ${COLORS.blackJet};
   color: ${COLORS.whiteSnow};
-  padding-bottom: 10px; 
 `;
 const ContainerCV = styled.div`  
   max-width: 700px;
@@ -90,7 +89,7 @@ const VerticalLineDate = styled.div`
 
 const HorizontalLine = styled.div`
   border-top: 2px solid ${COLORS.primary};
-  margin: 0px 0 20px 0;
+  margin: 0px 0 0px 0;
 `;
 
 const Cv = () => {

@@ -18,7 +18,6 @@ const HeaderProfile = styled.h1`
 const ParagraphProfile = styled.p`
   color: ${COLORS.white90};
   padding-top: 0.5rem;
-  padding-bottom: 2rem;
 `
 
 const VerticalLine = styled.div`
