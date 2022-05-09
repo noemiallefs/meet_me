@@ -1,0 +1,76 @@
+import React from "react";
+import styled from 'styled-components';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
+import { COLORS } from "../styles/Colors";
+
+const SectionMasthead = styled.section`
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: ${COLORS.primary}; 
+  align-items: center; 
+  text-align: center;
+  padding-bottom: 50px;
+`
+const HeaderMasthead = styled.h1`
+  color: ${COLORS.gray900};
+  font-family: "Zilla Slab Highlight";
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 7%;
+`
+const SubheaderMasthead = styled.h2`
+  color: ${COLORS.white90};
+  margin: 0;
+  font-family: "Zilla Slab Highlight";
+  font-size: 22px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 9%;
+`
+const Button = styled.button`
+  color: ${COLORS.whiteSnow};
+  text-align: center;
+  padding: 1.25rem 1.5rem;
+  background-color: ${COLORS.black20};
+  border: 0;
+  border-radius: 2px;
+  font-family: "Red Hat Mono";
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 1px 02px ${COLORS.black30};
+  &:hover {
+    background-color: ${COLORS.black30}
+  }
+  position: relative;
+  top: 18%;
+`
+const VerticalLineTop = styled.div`
+  border-left: 0.5px solid ${COLORS.black};
+  position: relative;
+  height: 33vh;
+  top: 0%;
+  margin-left: 50%;
+`
+const VerticalLineBottom = styled.div`
+  border-left: 0.5px solid ${COLORS.black};
+  position: relative;
+  top: 17%;
+  height: 24vh;
+  margin-left: 50%;
+`
+
+export default function Masthead() {
+  return (      
+      <SectionMasthead> 
+        <VerticalLineTop />
+        <HeaderMasthead>Noemi <br /> Álvarez Fernández</HeaderMasthead>
+        <SubheaderMasthead>STEM-Scientist</SubheaderMasthead>
+        <VerticalLineBottom />
+        <Button onClick={() => scrollTo('#cv')}>meet_me</Button>
+      </SectionMasthead>
+  );
+}

@@ -1,0 +1,320 @@
+import React from "react";
+import styled from 'styled-components';
+
+import { COLORS } from "../styles/Colors";
+
+const SectionCV = styled.section`
+  text-align: center;
+  background: ${COLORS.blackJet};
+  color: ${COLORS.whiteSnow};
+  padding-bottom: 10px; 
+`;
+const ContainerCV = styled.div`  
+  max-width: 700px;
+  margin: auto;
+  padding: 0px 25px 0px 25px;
+`;
+const EventWrap = styled.div`
+  border-left: 1px solid ${COLORS.primary}; 
+  margin-left: 39px;
+  margin-bottom: 10px;
+`;
+
+const HeaderCV = styled.h1`
+  font-family: 'Saira Extra Condensed';
+  font-weight: 700;
+  font-size: 2.5rem;
+`;
+const Date = styled.p`
+  color: ${COLORS.primary};
+  padding-bottom: 0;
+`;
+const Event = styled.p`
+  text-align: left;
+`;
+const List = styled.ul`
+  list-style-type: '· ';
+  text-align: left;
+  line-height: 30px;
+  font-size: 10pt;
+  margin-left: 20px;
+  postiion: absolute;
+`;
+
+const Grid = styled.div`
+  display: flex;
+  gap: 10px;
+  max-width: 90%;
+  margin: 30px auto;
+  align-items: stretch;
+  grid-area: content;
+  justify-content: center;
+  padding-bottom: 20px;
+
+  @media (max-width: 1504px) {
+    flex-direction: column;
+  }
+  @media (min-width: 698px) {
+    max-width: 57%;
+  }
+  @media (min-width: 1504px) {
+    max-width: 79%;
+  }
+`;
+const CardWrapper = styled.div`
+  background-color: ${COLORS.gray900};
+  width: 100%;
+  height: auto;
+  text-align: left;
+`;
+const CardHeader = styled.header`
+  margin: 20px 150px 20px 20px;
+  border-bottom: 2px solid ${COLORS.primary};
+`;
+const CardBody = styled.div`
+  margin: 20px;
+  line-height: 30px;
+  font-size: 10pt;
+`;
+
+const VerticalLineHeader = styled.div`
+  border-left: 2px solid ${COLORS.primary};
+  margin-left: 50%;
+  height: 70px;
+`;
+const VerticalLineDate = styled.div`
+  border-left: 2px solid ${COLORS.primary};
+  margin-left: 50%;
+  height: 30px;
+`;
+
+const HorizontalLine = styled.div`
+  border-top: 2px solid ${COLORS.primary};
+  margin: 0px 0 20px 0;
+`;
+
+const Cv = () => {
+  return (
+    <SectionCV id="cv">
+      <ContainerCV>
+        <HeaderCV>Education</HeaderCV>
+        <VerticalLineDate />
+        <Date>2018 - now</Date>
+        <Event><strong>PhD</strong> - Environmental and Natural Resources | CRETUS - EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Study of the relation between mercury and human populations through skeleton remains.</li>
+            <li><strong>Key words:</strong> mercury, pollution, paleoenvironment, human health, osteoarchaeology.</li>
+            <li><strong>Laboratory Techniques:</strong> DMA, XRF, FTIR-ATR, Core-Scanner, bone bioapatite and collagen extraction.</li>
+            <li><strong>Supervirsors:</strong> Olalla López Costas and Antonio Martínez Cortizas.</li>
+            <li><strong>Research stay:</strong> Malin Kylander (Stockholms Universitet).</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2017 - 2018</Date>
+        <Event><strong>MSc</strong> - Bioinformatics and Biostatistics (UOC/UB)</Event>
+        <EventWrap>
+          <List>
+            <li><strong>MSc thesis:</strong> Machine Learning and predictive models in forensic anthropology.<br/>
+                <strong>Supervisors:</strong> Xavier Jordana Comin and David Merino Arraz.<br/>
+                (Available at: <a href='http://openaccess.uoc.edu/webapps/o2/handle/10609/82140'>UOC</a>)
+            </li>
+            <li><strong>Practicum:</strong> Spectroscopic data pre-processing software - Web prototype.<br/>
+                <strong>Supervisors:</strong> Antonio Martínez Cortizas and David Merino Arranz.
+            </li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2013 - 2017</Date>
+        <Event><strong>BSc</strong> - Biology (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>BSc alumni committee.</li>
+            <li>SICUE (UB).</li>
+            <li><strong>BSc thesis:</strong> Spectroscopic characterisation (FTIR-ATR) of <i>Posidonia sp.</i> mat sediments from Garden Island (Australia).<br/>
+              <strong>Supervisor:</strong> Antonio Martínez Cortizas.
+            </li>
+            <li><strong>Curricular Practicum:</strong> Human remains study.<br/>
+              <strong>Supervisors:</strong> Maria Eulàlia Surbirà i de Galdàcano (UAB).
+            </li>
+            <li><strong>Extra-curricular Practicum:</strong> Archaeological sediment characterisation.<br/>
+                <strong>Supervisors:</strong> Olalla López Costas and Antonio Martínez Cortizas (EcoPast).
+            </li>
+          </List>
+        </EventWrap>
+        <VerticalLineHeader />
+        <HeaderCV>Experience</HeaderCV>
+        <VerticalLineDate />
+        <Date>2022 - now</Date>
+        <p><strong>Project Technician</strong> | Boscalia Technoligies</p>
+        <VerticalLineDate />
+        <Date>2021</Date>
+        <p><strong>Web Managment</strong> | <a href="https://ecopast.es/">EcoPast</a></p>
+        <VerticalLineDate />
+        <Date>2020 - 2021</Date>
+        <Event><strong>Collaborating researcher</strong> | EcoPast (USC)</Event>
+        <EventWrap> 
+          <List>
+            <li>Archaeological bone chemical characterisation and statistical data analysis.</li>
+            <li>Olalla López Costas.</li>
+          </List>
+        </EventWrap>
+        <Event><strong>Co-Supervisor BSc thesis.</strong> | EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Spectroscopic study of mummified human remains.</li>
+            <li>Co-supervising with Olalla López Costas and Antonio Martínez Cortizas.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2018 - 2020</Date>
+        <Event><strong>Training researcher</strong> | EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Archaeological bone chemical characterisation: (i) metal content, (ii) elemental composition, (iii) isotopic characterisation</li>
+            <li>Olalla López Costas.</li>
+          </List>
+        </EventWrap>
+        <Event><strong>Practical classes assistant.</strong> | (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Necropolis and Human Remains.</li>
+            <li>Olalla López Costas in "Máster en Arqueoloxía e Ciencias da Antigüedade".</li>
+          </List>
+        </EventWrap>
+        <Event><strong>Supervisor of the collaborating entity.</strong> | EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>External Academic Practices.</li>
+            <li>Archaeological human bones study.</li>
+          </List>
+        </EventWrap>
+        <Event><strong>Practical classes teacher.</strong> | EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Summer camp Bio-archaeology.</li>
+            <li>Archaeological human bones study.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2018</Date>
+        <Event><strong>Technical Research Support</strong> | EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Archaeological human bones and associated sediments study and treatment.</li>
+            <li>Olalla López Costas, project "Galicien Paleodiet".</li>
+            <li>Olalla López Costas and Anta de Moura, S.L., project "Estudo dos sedimentos asociados ós recipientes globulares atopados no castro de Toralla".</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2016 - 2017</Date>
+        <Event><strong>Co-author</strong> | Rizzoli Libri S.P.A.</Event>
+        <EventWrap>
+          <List>
+            <li>Trinidad Fernández González, <strong>Noemi Álvarez Fernández</strong>, Elena Zanon (2018) ¡Y ahora en ESPAÑOL 1! Rizzolli libri S.p.A.</li>
+            <li>Trinidad Fernández González, <strong>Noemi Álvarez Fernández</strong>, Elena Zanon (2018) ¡Y ahora en ESPAÑOL 2! Rizzolli libri S.p.A.</li>
+            <li>Trinidad Fernández González, <strong>Noemi Álvarez Fernández</strong>, Elena Zanon (2018) ¡Y ahora en ESPAÑOL 3! Rizzolli libri S.p.A.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2015</Date>
+        <Event><strong>Co-author</strong> | Zanichelli editore S.P.A.</Event>
+        <EventWrap>
+          <List>
+            <li>Trinidad Fernández González, Laura Carolo Fonte, <strong>Noemi Álvarez Fernández</strong> (2016) ¡Consigue el DELE! B2-Avanzado. Zanichelli editore S.p.A.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineHeader />
+        <HeaderCV>Courses</HeaderCV>
+        <VerticalLineDate />
+        <Date>2021 - 2022</Date>
+        <p><strong>Innovation and Artificial Iteligence.</strong> (Akademia - Fundación Innova Bankinter)</p>
+        <VerticalLineDate />
+        <Date>2021</Date>
+        <Event><strong>Google IT Support.</strong> (Google - Coursera)</Event>
+        <EventWrap>
+          <List>
+            <li>Basic aspects of technical assistance.</li>
+            <li>The bits and bytes of informatics networks.</li>
+            <li>Operative Systems and you: become and advanced user.</li>
+            <li>Systems administration and infraestructure services in IT.</li>
+            <li>Informatic security: defense against digital dark arts.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2020</Date>
+        <Event><strong>Data Science and Machine Learning: from regression to neural networks.</strong> (EDIUS - USC)</Event>
+        <Event><strong>Si te dedicas a la Ciencia ¡Divulgala!.</strong> (Universidad de Oviedo)</Event>
+        <VerticalLineDate />
+        <Date>2019</Date>
+          <Event><strong>Data Bases Use and Managment.</strong> (EDIUS - USC)</Event>
+          <Event><strong>Geographic Information Systems (GIS/QUANTUM).</strong> (EDIUS - USC)</Event>
+          <Event><strong>Patents as element of strategic value.</strong> (EDIUS - USC)</Event>
+          <Event><strong>Stress and time managment during the PhD.</strong> (EDIUS - USC)</Event>
+          <Event><strong>Scientific writing in Forensic Sciences.</strong> (EDIUS - USC)</Event>
+        <VerticalLineDate />
+        <Date>2017</Date>
+        <p><strong>X-ray Fluorescence (XRF).</strong> (Unidade de raios X - Fluorescencia de Raios X, RIAIDT - USC)</p>
+        <VerticalLineHeader />
+        <HeaderCV>Grants and Awards</HeaderCV>
+        <VerticalLineDate />
+        <Date>2020 - 2021</Date>
+        <p><strong>ERASMUS+</strong> | Research stay (4 months) in the Stockholms Universitet (Sweden).</p>
+        <VerticalLineDate />
+        <Date>2014</Date>
+        <p><strong>Compostela Debate Club (USC)</strong> | 1<sup>st</sup> prize of the III Internal League.</p>
+        <VerticalLineDate />
+        <Date>2012 - 2014</Date>
+        <p><strong>MEC</strong> | Becas y ayudas a alumnos de niveles postobligatorios. Universitarios.</p>
+        <VerticalLineHeader />
+      </ContainerCV>
+      <HorizontalLine />
+      <HeaderCV>Skills</HeaderCV>
+      <Grid>
+        <CardWrapper>
+          <CardHeader>
+            <h3>Languages</h3>
+          </CardHeader>
+          <CardBody>
+            Galician | Native <br />
+            Spanish | Native <br />
+            English &nbsp;&nbsp;| C1
+          </CardBody>
+        </CardWrapper>
+        <CardWrapper>
+          <CardHeader>
+            <h3>Laboratory + Field Techniques</h3>
+          </CardHeader>
+          <CardBody>
+            FTIR-ATR spectroscopy <br />
+            X-ray fluorescence (XRF) <br />
+            Direct Mercury Analyser (DMA) <br />
+            Core-Scanner <br />
+            Russian corer (peat sampling) <br />
+            Soil/sediment characterisation <br />
+            Bone bioapatite and collagen extraction <br />
+            Archaeological excavation in doors <br />
+          </CardBody>
+        </CardWrapper>
+        <CardWrapper>
+          <CardHeader>
+            <h3>Computer Sciences</h3>
+          </CardHeader>
+          <CardBody>
+            <strong>Statistics:</strong> RStudio, WEKA, Rapidminer <br />
+            <strong>Programming:</strong> R, Python <br />
+            <strong>Web development:</strong> HTML, CSS, JavaScript, PHP <br />
+            <strong>Text editors:</strong> LaTex, RMarkdown <br />
+            <strong>Maps:</strong> RStudio, ArcGIS <br />
+            <strong>DDBB:</strong> MySQL, No SQL <br />
+            <strong>Repositories:</strong> Git <br />
+            <strong>S.O.:</strong> Unix <br />
+          </CardBody>
+        </CardWrapper>
+      </Grid>
+      <HorizontalLine />
+    </SectionCV>
+  );
+}
+
+export default Cv;
