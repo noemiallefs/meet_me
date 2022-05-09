@@ -4,7 +4,7 @@ module.exports = {
     description: `Come and meet me and my research`,
     author: `@noemiallefs`,
     keywords: `Noemi Alvarez Fernandez, STEM, scientist, Data Scientist`,
-    url: `https://meetme.gatsbyjs.io`,
+    siteUrl: `https://meetme.gatsbyjs.io`,
   },
 
   plugins: [
