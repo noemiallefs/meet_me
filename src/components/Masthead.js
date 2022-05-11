@@ -21,15 +21,23 @@ const HeaderMasthead = styled.h1`
   letter-spacing: 1px;
   position: relative;
   top: 7%;
+
+  @media (max-width: 441px) {
+    font-size: 30px;
+  }
 `
 const SubheaderMasthead = styled.h2`
   color: ${COLORS.white90};
   margin: 0;
   font-family: "Zilla Slab Highlight";
   font-size: 22px;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
   position: relative;
   top: 9%;
+
+  @media (max-width: 441px) {
+    font-size: 20px;
+  }
 `
 const Button = styled.button`
   color: ${COLORS.whiteSnow};
