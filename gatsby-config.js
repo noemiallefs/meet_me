@@ -4,7 +4,7 @@ module.exports = {
     description: `Come and meet me and my research`,
     author: `@noemiallefs`,
     keywords: `Noemi Alvarez Fernandez, STEM, scientist, Data Scientist`,
-    siteUrl: `https://meetme.gatsbyjs.io`,
+    siteUrl: `https://www.noemiallefs-meetme.com`,
   },
 
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: 'https://meetme.gatsbyjs.io',
+        siteUrl: 'https://www.noemiallefs-meetme.com',
       },
     },
 
@@ -63,8 +63,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://meetme.gatsbyjs.io',
-        sitemap: 'https://meetme.gatsbyjs.io/sitemap/sitemap-index.xml',
+        host: 'https://www.noemiallefs-meetme.com',
+        sitemap: 'https://www.noemiallefs-meetme.com/sitemap/sitemap-index.xml',
         policy: [
           {
             userAgent: '*',
