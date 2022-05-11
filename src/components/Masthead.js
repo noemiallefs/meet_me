@@ -24,6 +24,7 @@ const HeaderMasthead = styled.h1`
 
   @media (max-width: 441px) {
     font-size: 30px;
+    letter-spacing: 0.7px;
   }
 `
 const SubheaderMasthead = styled.h2`
@@ -62,6 +63,11 @@ const VerticalLineTop = styled.div`
   height: 35vh;
   margin-bottom: 40px;
   margin-left: 50%;
+
+  @media (max-width: 441px) {
+    height: 20vh;
+  }
+
 `
 const VerticalLineBottom = styled.div`
   border-left: 0.5px solid ${COLORS.black};
@@ -69,6 +75,10 @@ const VerticalLineBottom = styled.div`
   margin-top: 50px;
   height: 29vh;
   margin-left: 50%;
+
+  @media (max-width: 441px) {
+    height: 17vh;
+  }
 `
 
 export default function Masthead() {
