@@ -65,7 +65,7 @@ const VerticalLineTop = styled.div`
   margin-left: 50%;
 
   @media (max-width: 441px) {
-    height: 20vh;
+    height: 27vh;
   }
 
 `
@@ -77,7 +77,7 @@ const VerticalLineBottom = styled.div`
   margin-left: 50%;
 
   @media (max-width: 441px) {
-    height: 17vh;
+    height: 20vh;
   }
 `
 
