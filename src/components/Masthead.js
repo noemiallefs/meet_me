@@ -32,7 +32,7 @@ const SubheaderMasthead = styled.h2`
   margin: 0;
   font-family: "Zilla Slab Highlight";
   font-size: 22px;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
   position: relative;
   top: 9%;
 
