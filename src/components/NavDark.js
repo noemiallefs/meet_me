@@ -4,7 +4,8 @@ import BurgerDark from "./BurgerDark";
 import TopNavDark from "./TopNavDark";
 
 const NavDark = () => {
-  const [width, setWidth] = useState(undefined);
+
+  const [width, setWidth] = useState(0);
   const breakpoint = 1265;
 
   useEffect(() => {
@@ -12,8 +13,8 @@ const NavDark = () => {
       setWidth(window.innerWidth);
     }
 
-    window.removeEventListener("resize", handleWindowResize);
     window.addEventListener("resize", handleWindowResize);
+    handleWindowResize();
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
