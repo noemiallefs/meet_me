@@ -9,22 +9,72 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-smoothscroll`,
 
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
 
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: 'https://meetme.gatsbyjs.io',
+      },
+    },
+
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/sitemap',
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage(
+            filter: {
+              path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
+            }
+          ) {
+            nodes {
+              path
+            }
+          }
+        }
+        `,
+        resolvePages: ({ allSitePage: { nodes: allPages } }) => {
+          return allPages.map((page) => {
+            return { ...page };
+          });
+        },
+        serialize: ({ path }) => {
+          return {
+            url: path,
+            changefreq: 'weekly',
+            priority: 0.7,
+          };
+        },
+      },
+    },
+
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://meetme.gatsbyjs.io',
         sitemap: 'https://meetme.gatsbyjs.io/sitemap/sitemap-index.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
-    }, 
-
+        policy: [
+          {
+            userAgent: '*',
+            allow: '/',
+            disallow: ['/404'],
+          },
+        ],
+      },
+    },
+    
     {
       resolve: "gatsby-omni-font-loader",
     
