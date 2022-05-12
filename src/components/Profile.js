@@ -30,7 +30,7 @@ const Profile = () => {
     <SectionProfile id="cv">
       <HeaderProfile>Noemi Álvarez Fernández | MSc. BSc.</HeaderProfile>
       <ParagraphProfile>
-        Project Technician, <a href="http://boscalia.org/en/home">Boscalia Tachnologies</a><br/>
+        Project Technician, <a href="http://boscalia.org/en/home">Boscalia Technologies</a><br/>
         PhD-student, CRETUS-EcoPast <a href="https://ecopast.es/">(GI-1553)</a>, USC <br/>
         ORCID: <a href="https://orcid.org/0000-0003-2690-4051">0000-0003-2690-4051</a> <br/>
       </ParagraphProfile>
