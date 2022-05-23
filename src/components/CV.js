@@ -146,6 +146,7 @@ const Cv = () => {
         <VerticalLineDate />
         <Date>2022 - now</Date>
         <p><strong>Project Technician</strong> | Boscalia Technoligies</p>
+        <p><strong>Reviewer</strong> | Scientific Reports</p>
         <VerticalLineDate />
         <Date>2021</Date>
         <p><strong>Web Managment</strong> | <a href="https://ecopast.es/">EcoPast</a></p>
@@ -226,6 +227,8 @@ const Cv = () => {
         <VerticalLineHeader />
         <HeaderCV>Courses</HeaderCV>
         <VerticalLineDate />
+        <Date>2022</Date>
+        <p><strong>Analysis and visualisation of spatial data with R.</strong> (EDIUS - USC)</p>
         <Date>2021 - 2022</Date>
         <p><strong>Innovation and Artificial Iteligence.</strong> (Akademia - Fundación Innova Bankinter)</p>
         <VerticalLineDate />
