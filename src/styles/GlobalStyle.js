@@ -40,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     max-width: 550px;
     height: auto;
-    max-height: 310px;
+    max-height: 300px;
   }
   p {
     padding: 10px;
