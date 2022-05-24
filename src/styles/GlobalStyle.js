@@ -38,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
   }
   video {;
     width: 100%;
-    max-width: 550px;
+    max-width: 535px;
     height: auto;
     max-height: 300px;
   }

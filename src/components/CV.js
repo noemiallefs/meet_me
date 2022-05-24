@@ -142,7 +142,7 @@ const Cv = () => {
           </List>
         </EventWrap>
         <VerticalLineHeader />
-        <HeaderCV>Experience</HeaderCV>
+        <HeaderCV>Expertise</HeaderCV>
         <VerticalLineDate />
         <Date>2022 - now</Date>
         <p><strong>Project Technician</strong> | Boscalia Technoligies</p>
@@ -152,7 +152,7 @@ const Cv = () => {
         <p><strong>Web Managment</strong> | <a href="https://ecopast.es/">EcoPast</a></p>
         <VerticalLineDate />
         <Date>2020 - 2021</Date>
-        <Event><strong>Collaborating researcher</strong> | EcoPast (USC)</Event>
+        <Event><strong>Pre-doctoral researcher</strong> | EcoPast (USC)</Event>
         <EventWrap> 
           <List>
             <li>Archaeological bone chemical characterisation and statistical data analysis.</li>
@@ -168,14 +168,14 @@ const Cv = () => {
         </EventWrap>
         <VerticalLineDate />
         <Date>2018 - 2020</Date>
-        <Event><strong>Training researcher</strong> | EcoPast (USC)</Event>
+        <Event><strong>Pre-doctoral researcher</strong> | EcoPast (USC)</Event>
         <EventWrap>
           <List>
             <li>Archaeological bone chemical characterisation: (i) metal content, (ii) elemental composition, (iii) isotopic characterisation</li>
             <li>Olalla López Costas.</li>
           </List>
         </EventWrap>
-        <Event><strong>Practical classes assistant.</strong> | (USC)</Event>
+        <Event><strong>Laboratory teaching assistance.</strong> | (USC)</Event>
         <EventWrap>
           <List>
             <li>Necropolis and Human Remains.</li>
@@ -189,7 +189,7 @@ const Cv = () => {
             <li>Archaeological human bones study.</li>
           </List>
         </EventWrap>
-        <Event><strong>Practical classes teacher.</strong> | EcoPast (USC)</Event>
+        <Event><strong>Laboratory teaching assistance.</strong> | EcoPast (USC)</Event>
         <EventWrap>
           <List>
             <li>Summer camp Bio-archaeology.</li>
@@ -295,7 +295,7 @@ const Cv = () => {
             Russian corer (peat sampling) <br />
             Soil/sediment characterisation <br />
             Bone bioapatite and collagen extraction <br />
-            Archaeological excavation in doors <br />
+            Archaeological excavation indoors <br />
           </CardBody>
         </CardWrapper>
         <CardWrapper>
