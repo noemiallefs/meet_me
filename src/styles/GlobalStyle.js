@@ -80,6 +80,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 13pt;
     margin: 0 0 15px 0;
   }
+  h6 {
+    font-family: "Rajdhani";
+    font-weight: 600;
+  }
 `
 
 export default GlobalStyle

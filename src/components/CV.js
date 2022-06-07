@@ -92,6 +92,11 @@ const HorizontalLine = styled.div`
   margin: 0px 0 0px 0;
 `;
 
+const ColorBox = styled.span`
+  background-color: ${COLORS.primaryDark};
+  padding: 2px;
+`;
+
 const Cv = () => {
   return (
     <SectionCV id="cv">
@@ -155,8 +160,16 @@ const Cv = () => {
         <Event><strong>Pre-doctoral researcher</strong> | EcoPast (USC)</Event>
         <EventWrap> 
           <List>
-            <li>Archaeological bone chemical characterisation and statistical data analysis.</li>
+            <li>Archaeological bone and soil/sediments chemical characterisation and statistical data analysis.</li>
             <li>Olalla López Costas.</li>
+            <h6> -- ARTICLES --</h6>
+            <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Zaira García&ndash;López, Olalla López&ndash;Costas (2021) <strong>Approaching mercury distribution in burial environment using PLS-R modelling.</strong> <i>Scientific reports. <a href="https://doi.org/10.1038/s41598-021-00768-8">https://doi.org/10.1038/s41598-021-00768-8</a></i></li>
+          </List>
+        </EventWrap>
+        <Event><strong>Article Colab.</strong> | EcoPast (USC)</Event>
+        <EventWrap>
+          <List>
+            <li>Antonio Martínez Cortizas, Jenny K Sjöström, Eleonor E Ryberg, Malin E Kylander, Joeri Kaal, Olalla López-Costas, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Richard Bindler (2021) <strong>9000 years of changes in peat organic matter composition in Store Mosse (Sweden) traced using FTIR-ATR</strong> <i>Boreas. <a href="https://doi-org/10.1111/bor.12527">https://doi-org/10.1111/bor.12527</a></i></li>
           </List>
         </EventWrap>
         <Event><strong>Co-Supervisor BSc thesis.</strong> | EcoPast (USC)</Event>
@@ -173,6 +186,9 @@ const Cv = () => {
           <List>
             <li>Archaeological bone chemical characterisation: (i) metal content, (ii) elemental composition, (iii) isotopic characterisation</li>
             <li>Olalla López Costas.</li>
+            <h6> -- ARTICLES --</h6>
+            <li>Olalla López&ndash;Costas, Malin Kylander, Nadine Mattielli, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Marta Pérez&ndash;Rodríguez, Tim Mighall, Richard Bindler, Antonio Martínez Cortizas (2020) <strong>Human bones tell the story of atmospheric mercury and lead exposure at the edge of Roman World.</strong> <i>Science of The Total Environment. <a href="https://doi.org/10.1016/j.scitotenv.2019.136319">https://doi.org/10.1016/j.scitotenv.2019.136319</a></i></li>
+            <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Olalla López&ndash;Costas (2020) <strong>Atmospheric mercury pollution deciphered through archaeological bones</strong> <i>Journal of Archaeological Science. <a href="https://doi.org/10.1016/j.jas.2020.105159">https://doi.org/10.1016/j.jas.2020.105159</a></i></li>
           </List>
         </EventWrap>
         <Event><strong>Laboratory teaching assistance.</strong> | (USC)</Event>
