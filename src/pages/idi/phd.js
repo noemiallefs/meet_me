@@ -29,7 +29,7 @@ const PhdPage = () => {
         <h4>Articles</h4>
         <ListProject>
           <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Zaira García&ndash;López, Olalla López&ndash;Costas (2021) <strong>Approaching mercury distribution in burial environment using PLS-R modelling.</strong> <i>Scientific reports. <a href="https://doi.org/10.1038/s41598-021-00768-8">https://doi.org/10.1038/s41598-021-00768-8</a></i></li>
-          <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Olalla López&ndash;Costas (2020) <strong>Atmospheric mercury pollution deciphered through archaeological bones</strong> <i>Journal of Archaeological Science. <a href="https://doi.org/10.1016/j.jas.2020.105159">https://doi.org/10.1016/j.jas.2020.105159</a></i></li>
+          <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Olalla López&ndash;Costas (2020) <strong>Atmospheric mercury pollution deciphered through archaeological bones.</strong> <i>Journal of Archaeological Science. <a href="https://doi.org/10.1016/j.jas.2020.105159">https://doi.org/10.1016/j.jas.2020.105159</a></i></li>
           <li>Olalla López&ndash;Costas, Malin Kylander, Nadine Mattielli, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Marta Pérez&ndash;Rodríguez, Tim Mighall, Richard Bindler, Antonio Martínez Cortizas (2020) <strong>Human bones tell the story of atmospheric mercury and lead exposure at the edge of Roman World.</strong> <i>Science of The Total Environment. <a href="https://doi.org/10.1016/j.scitotenv.2019.136319">https://doi.org/10.1016/j.scitotenv.2019.136319</a></i></li>
         </ListProject>
 
