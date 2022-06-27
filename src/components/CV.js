@@ -164,7 +164,7 @@ const Cv = () => {
             <li>Olalla López Costas.</li>
             <h6> -- ARTICLES --</h6>
             <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Zaira García&ndash;López, Olalla López&ndash;Costas (2021) <strong>Approaching mercury distribution in burial environment using PLS-R modelling.</strong> <i>Scientific reports. <a href="https://doi.org/10.1038/s41598-021-00768-8">https://doi.org/10.1038/s41598-021-00768-8</a></i></li>
-            <li>Zaira García-López, Antonio Martínez Cortizas, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Olalla López-Costas (2022) <strong>Understanding Necrosol pedogenetical processes in post-Roman burials developed on dunes sands</strong> <i>Scientifc reports. <a href="https://doi-org.ezbusc.usc.gal/10.1038/s41598-022-14750-5">https://doi-org.ezbusc.usc.gal/10.1038/s41598-022-14750-5</a></i></li>
+            <li>Zaira García-López, Antonio Martínez Cortizas, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Olalla López-Costas (2022) <strong>Understanding Necrosol pedogenetical processes in post-Roman burials developed on dunes sands.</strong> <i>Scientifc reports. <a href="https://doi-org.ezbusc.usc.gal/10.1038/s41598-022-14750-5">https://doi-org.ezbusc.usc.gal/10.1038/s41598-022-14750-5</a></i></li>
           </List>
         </EventWrap>
         <Event><strong>Article Colab.</strong> | EcoPast (USC)</Event>

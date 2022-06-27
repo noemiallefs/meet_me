@@ -35,6 +35,7 @@ const AndurinhaPage = () => {
 
         <h4>Who use andurinha?</h4>
         <ListProject>
+          <li>Zaira García-López, Antonio Martínez Cortizas, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Olalla López-Costas (2022) <strong>Understanding Necrosol pedogenetical processes in post-Roman burials developed on dunes sands.</strong> <i>Scientifc reports. <a href="https://doi-org.ezbusc.usc.gal/10.1038/s41598-022-14750-5">https://doi-org.ezbusc.usc.gal/10.1038/s41598-022-14750-5</a></i></li>
           <li>Antonio Martínez Cortizas, Jenny K Sjöström, Eleonor E Ryberg, Malin E Kylander, Joeri Kaal, Olalla López&ndash;Costas, <ColorBox>Noemi Álvarez Fernández</ColorBox>, Richard Bindler (2021) <strong>9000 years of changes in peat organic matter composition in Store Mosse (Sweden) traced using FTIR&ndash;ATR.</strong> <i>Boreas. <a href="https://doi.org/10.1111/bor.12527">https://doi.org/10.1111/bor.12527</a></i></li>
           <li>Antonio Martínez Cortizas, Lourdes López&ndash;Merino, Noemí Silva&ndash;Sánchez, Jenny K Sjöström, Malin E Kylander (2021) <strong>Investigating the Mineral Composition of Peat by Combining FTIR-ATR and Multivariate Analysis.</strong> <i>Minerals. <a href="https://doi.org/10.3390/min11101084">https://doi.org/10.3390/min11101084</a></i></li>
         </ListProject>
