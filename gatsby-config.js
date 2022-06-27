@@ -4,7 +4,7 @@ module.exports = {
     description: `Come and meet me and my research`,
     author: `@noemiallefs`,
     keywords: `Noemi Alvarez Fernandez, STEM, scientist, Data Scientist`,
-    siteUrl: `https://noemiallefs-meetme.com`,
+    siteUrl: `https://noemiallefs.com`,
   },
 
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: 'https://noemiallefs-meetme.com',
+        siteUrl: 'https://noemiallefs.com',
       },
     },
 
