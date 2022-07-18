@@ -136,10 +136,10 @@ const Cv = () => {
             <li>BSc alumni committee.</li>
             <li>SICUE (UB).</li>
             <li><strong>BSc thesis:</strong> Spectroscopic characterisation (FTIR-ATR) of <i>Posidonia sp.</i> mat sediments from Garden Island (Australia).<br/>
-              <strong>Supervisor:</strong> Antonio Martínez Cortizas.
+                <strong>Supervisor:</strong> Antonio Martínez Cortizas.
             </li>
             <li><strong>Curricular Practicum:</strong> Human remains study.<br/>
-              <strong>Supervisors:</strong> Maria Eulàlia Surbirà i de Galdàcano (UAB).
+                <strong>Supervisors:</strong> Maria Eulàlia Surbirà i de Galdàcano (UAB).
             </li>
             <li><strong>Extra-curricular Practicum:</strong> Archaeological sediment characterisation.<br/>
                 <strong>Supervisors:</strong> Olalla López Costas and Antonio Martínez Cortizas (EcoPast).
@@ -150,8 +150,21 @@ const Cv = () => {
         <HeaderCV>Expertise</HeaderCV>
         <VerticalLineDate />
         <Date>2022 - now</Date>
-        <p><strong>Project Technician</strong> | Boscalia Technoligies</p>
-        <p><strong>Reviewer</strong> | Scientific Reports</p>
+        <Event><strong>Project Technician</strong> | Boscalia Technoligies</Event>
+        <EventWrap>
+          <List>
+            <li><strong>TANNIRS</strong></li>
+            <li><strong>SATree</strong><br/>
+                        Statistical Modelling and Coding | Python<br/>
+                        Supervisor of the collaborating entity: external academic practices (URJC)
+            </li>
+            <li><strong>IoFT</strong><br/>
+                        HORIZONT2022 Project propousal: draft and final version.
+            </li>
+          </List>
+        </EventWrap>
+        <Event><strong>Reviewer</strong> | Scientific Reports</Event>
+        <Event><strong>Reviewer</strong> | Journal of Chemometrics</Event>
         <VerticalLineDate />
         <Date>2021</Date>
         <p><strong>Web Managment</strong> | <a href="https://ecopast.es/">EcoPast</a></p>
@@ -173,7 +186,7 @@ const Cv = () => {
             <li>Antonio Martínez Cortizas, Jenny K Sjöström, Eleonor E Ryberg, Malin E Kylander, Joeri Kaal, Olalla López-Costas, <ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Richard Bindler (2021) <strong>9000 years of changes in peat organic matter composition in Store Mosse (Sweden) traced using FTIR-ATR.</strong> <i>Boreas. <a href="https://doi-org/10.1111/bor.12527">https://doi-org/10.1111/bor.12527</a></i></li>
           </List>
         </EventWrap>
-        <Event><strong>Co-Supervisor BSc thesis.</strong> | EcoPast (USC)</Event>
+        <Event><strong>Co-Supervisor BSc thesis</strong> | EcoPast (USC)</Event>
         <EventWrap>
           <List>
             <li>Spectroscopic study of mummified human remains.</li>
@@ -192,21 +205,21 @@ const Cv = () => {
             <li><ColorBox>Noemi Álvarez&ndash;Fernández</ColorBox>, Antonio Martínez Cortizas, Olalla López&ndash;Costas (2020) <strong>Atmospheric mercury pollution deciphered through archaeological bones.</strong> <i>Journal of Archaeological Science. <a href="https://doi.org/10.1016/j.jas.2020.105159">https://doi.org/10.1016/j.jas.2020.105159</a></i></li>
           </List>
         </EventWrap>
-        <Event><strong>Laboratory teaching assistance.</strong> | (USC)</Event>
+        <Event><strong>Laboratory teaching assistance</strong> | (USC)</Event>
         <EventWrap>
           <List>
             <li>Necropolis and Human Remains.</li>
             <li>Olalla López Costas in "Máster en Arqueoloxía e Ciencias da Antigüedade".</li>
           </List>
         </EventWrap>
-        <Event><strong>Supervisor of the collaborating entity.</strong> | EcoPast (USC)</Event>
+        <Event><strong>Supervisor of the collaborating entity</strong> | EcoPast (USC)</Event>
         <EventWrap>
           <List>
             <li>External Academic Practices.</li>
             <li>Archaeological human bones study.</li>
           </List>
         </EventWrap>
-        <Event><strong>Laboratory teaching assistance.</strong> | EcoPast (USC)</Event>
+        <Event><strong>Laboratory teaching assistance</strong> | EcoPast (USC)</Event>
         <EventWrap>
           <List>
             <li>Summer camp Bio-archaeology.</li>

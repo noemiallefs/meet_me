@@ -34,7 +34,7 @@ const SEO = ({ title, description, author, keywords, lang }) => {
       <meta name="description" content={seo.description} />
       <meta name="keywords" content={seo.keywords} />
       <meta name="author" content={seo.author} />
-      <meta name="robots" content="index"/>
+      <meta name="robots" content="all" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
       {seo.title && <meta property="og:title" content={seo.title} />}
