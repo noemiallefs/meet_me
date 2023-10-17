@@ -107,10 +107,11 @@ const Cv = () => {
       <ContainerCV>
         <HeaderCV>Education</HeaderCV>
         <VerticalLineDate />
-        <Date>2018 - now</Date>
+        <Date>2018 - 2023</Date>
         <Event><strong>PhD</strong> - Environmental and Natural Resources | CRETUS - EcoPast (USC)</Event>
         <EventWrap>
           <List>
+            <li>International PhD. <i>Cum Laude</i>.</li>
             <li>Study of the relation between mercury and human populations through skeleton remains.</li>
             <li><strong>Key words:</strong> mercury, pollution, paleoenvironment, human health, osteoarchaeology.</li>
             <li><strong>Laboratory Techniques:</strong> DMA, XRF, FTIR-ATR, Core-Scanner, bone bioapatite and collagen extraction.</li>
@@ -158,7 +159,14 @@ const Cv = () => {
         <Event><strong>Project Technician</strong> | Boscalia Technoligies</Event>
         <EventWrap>
           <List>
-            <li><strong>TANNIRS</strong></li>
+            <li><strong>COSE</strong><br/>
+                         LaTeX template design <br/>
+                         Autofill LaTeX template from dataset | Python <br/>
+            </li>
+            <li><strong>TANNIRS</strong> | <a href="http://boscalia.org/en/tannirs-project">About the Project</a><br/>
+                         Statistical Modelling and Coding | R <br/>
+                         Analitical Methods: Vis-NIR + FTIR-ATR <br/>
+            </li>
             <li><strong>SATree</strong> | <a href="http://boscalia.org/en/satree-project">About the Project</a><br/>
                         Statistical Modelling and Coding | Python<br/>
                         Supervisor of the collaborating entity: external academic practices (URJC)
@@ -168,8 +176,14 @@ const Cv = () => {
             </li>
           </List>
         </EventWrap>
-        <Event><strong>Reviewer</strong> | Scientific Reports</Event>
-        <Event><strong>Reviewer</strong> | Journal of Chemometrics</Event>
+        <Event><strong>Reviewer</strong></Event>
+        <EventWrap>
+          <List>
+            <li>Scientific Reports</li>
+            <li>Journal of Chemometrics</li>
+            <li>Journal of Archaeological Method and Theory</li>
+          </List>
+        </EventWrap>
         <VerticalLineDate />
         <Date>2021</Date>
         <p><strong>Web Managment</strong> | <a href="https://ecopast.es/">EcoPast</a></p>
