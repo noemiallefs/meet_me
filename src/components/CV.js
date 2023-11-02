@@ -162,6 +162,7 @@ const Cv = () => {
             <li><strong>COSE</strong><br/>
                          LaTeX template design <br/>
                          Autofill LaTeX template from dataset | Python <br/>
+                         Database development and handle | MySQL <br/>
             </li>
             <li><strong>TANNIRS</strong> | <a href="http://boscalia.org/en/tannirs-project">About the Project</a><br/>
                          Statistical Modelling and Coding | R <br/>
