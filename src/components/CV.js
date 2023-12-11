@@ -183,6 +183,7 @@ const Cv = () => {
             <li>Scientific Reports</li>
             <li>Journal of Chemometrics</li>
             <li>Journal of Archaeological Method and Theory</li>
+            <li>Journal of Archaeological Science - Reports</li>
           </List>
         </EventWrap>
         <VerticalLineDate />

@@ -12,7 +12,7 @@ const PhdPage = () => {
       <SectionPostL>
         <HeaderProject>PhD &mdash; Humans and Hg: a toxic relationship.</HeaderProject>
         <h3>Noemi Álvarez Fernández</h3>
-        <h3>2022</h3>
+        <h3>2023</h3>
 
         <h4>The project</h4>
 
@@ -25,7 +25,11 @@ const PhdPage = () => {
         AC 3250 (S Iberian Peninsula). To date, several studies have been carried out on how 
         human activities modify the levels of this metal in different ecosystems. But, how does 
         this perturbation affect humans? and, how can we study this impact? To answer these 
-        questions, this research analyses the human archaeological remains of A Lanzada site.
+        questions, this research analyses the human archaeological remains of A Lanzada site. 
+
+        <br/><br/>
+
+        Available at: <a href="https://minerva.usc.es/xmlui/handle/10347/31064">Minerva USC</a>
 
         <h4>Articles</h4>
         <ListProject>
