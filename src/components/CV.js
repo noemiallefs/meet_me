@@ -155,26 +155,14 @@ const Cv = () => {
         <VerticalLineHeader />
         <HeaderCV>Expertise</HeaderCV>
         <VerticalLineDate />
-        <Date>2022 - now</Date>
-        <Event><strong>Project Technician</strong> | Boscalia Technoligies</Event>
+        <Date>2022 - 2025</Date>
+        <Event><strong>Desarollador de I+D en Tecnologías de Datos</strong> | Boscalia Technoligies</Event>
         <EventWrap>
           <List>
-            <li><strong>COSE</strong><br/>
-                         LaTeX template design <br/>
-                         Autofill LaTeX template from dataset | Python <br/>
-                         Database development and handle | MySQL <br/>
-            </li>
-            <li><strong>TANNIRS</strong> | <a href="http://boscalia.org/en/tannirs-project">About the Project</a><br/>
-                         Statistical Modelling and Coding | R <br/>
-                         Analitical Methods: Vis-NIR + FTIR-ATR <br/>
-            </li>
-            <li><strong>SATree</strong> | <a href="http://boscalia.org/en/satree-project">About the Project</a><br/>
-                        Statistical Modelling and Coding | Python<br/>
-                        Supervisor of the collaborating entity: external academic practices (URJC)
-            </li>
-            <li><strong>IoFT</strong><br/>
-                        HORIZONT2022 Project propousal: draft and final version.
-            </li>
+            <li>Diseño y optimización de bases de datos en MySQL, desarrollo de plantillas en LaTeX y automatización de processos mediente programación en R y Python.</li>
+            <li>Creación y optimización de algoritmos de Machine Learning (ML) aplicados a datos espectroscópicos, fisicoquímicos y satelitales.</li>
+            <li>Liderazgo en el diseño y ejecución de proyectos de I+D+i, con enfoque en innovación y resultados concretos.</li>
+            <li>Identificación y análisis de convocatorias de I+D+i, además de la redacción y presentación de proyectos científico-técnicos y memorias.</li>
           </List>
         </EventWrap>
         <Event><strong>Reviewer</strong></Event>

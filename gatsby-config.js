@@ -14,6 +14,18 @@ module.exports = {
 
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'gastby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#FFDEDE',
+        theme_color: '#FFDEDE',
+        display: 'minimal-ui',
+        icon: '/src/images/profile.webp' 
+      },
+    },
     `gatsby-transformer-sharp`,
     
     `gatsby-plugin-react-helmet`,

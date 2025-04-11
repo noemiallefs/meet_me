@@ -31,7 +31,7 @@ const Profile = () => {
     <SectionProfile id="cv">
       <HeaderProfile>Noemi Álvarez Fernández | PhD. MSc. BSc.</HeaderProfile>
       <ParagraphProfile>
-        Project Technician, <a href="http://boscalia.org/en/home">Boscalia Technologies</a><br/>
+        Doctora en ciencias<br/>
         ORCID: <a href="https://orcid.org/0000-0003-2690-4051">0000-0003-2690-4051</a> <br/>
         WOS ID: <a href="https://publons.com/wos-op/researcher/5355892/noemi-alvarez-fernandez/">GNO-9485-2022</a> <br/>
       </ParagraphProfile>
