@@ -20,7 +20,11 @@
     "@styled-icons/foundation": "^10.46.0",
     "@styled-icons/material-sharp": "^10.47.0",
     "engine.io": "^6.4.2",
+<<<<<<< HEAD
     "gatsby": "^5.12.12",
+=======
+    "gatsby": "^5.13.6",
+>>>>>>> 39d57e45a3f596b89a506ab8487972524c4ba340
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-google-gtag": "^2.8.0",
     "gatsby-plugin-image": "^0.7.2",
