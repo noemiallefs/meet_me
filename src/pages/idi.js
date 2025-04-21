@@ -27,7 +27,52 @@ const IdiPage = () => {
               work in progress.
             </CardBody>
             <CardFooter>
-              Last update: 05/04/2022
+              Last update: 21/04/2025
+            </CardFooter>
+          </CardWrapper>
+
+          <CardWrapper>
+            <StyledLink to="/idi/madspec">
+              <CardHeader>
+                <h3>MADSPEC</h3>
+              </CardHeader>
+              <CardBody>
+                <h4>wood’s physico-mechanical properties and IR spectroscopy.</h4>
+                Evaluation of NIR and FTIR spectroscopies as fast, accurate, and portable tools for assessing wood’s physico-mechanical properties.              
+                </CardBody>
+            </StyledLink>
+            <CardFooter>
+              Last update: 21/04/2025
+            </CardFooter>
+          </CardWrapper>
+
+          <CardWrapper>
+            <StyledLink to="/idi/carbonirs">
+              <CardHeader>
+                <h3>CARBONIRS</h3>
+              </CardHeader>
+              <CardBody>
+                <h4>Charcoal quality and IR spectroscopy.</h4>
+                Innovative quality control method for charcoal briquettes based on Spectroscopic technology.
+              </CardBody>
+            </StyledLink>
+            <CardFooter>
+              Last update: 21/04/2025
+            </CardFooter>
+          </CardWrapper>
+
+          <CardWrapper>
+            <StyledLink to="/idi/tannirs">
+              <CardHeader>
+                <h3>TANNIRS</h3>
+              </CardHeader>
+              <CardBody>
+                <h4>Wine industry and Vis-NIR.</h4>
+                Rapid and effective method based on spectroscopy to ensure the quality of raw materials of forest origin.
+              </CardBody>
+            </StyledLink>
+            <CardFooter>
+              Last update: 11/04/2025
             </CardFooter>
           </CardWrapper>
 

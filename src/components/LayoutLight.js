@@ -12,9 +12,11 @@ export default function LayoutLight({ children }) {
     <>
       <Seo />
       <GlobalStyle />
-      <Nav />
-        {children}
-      <Footer />
+      <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+        <Nav />
+        <main style={{ flex: 1 }}>{children}</main>
+        <Footer />
+      </div>
     </>
   )
 }
