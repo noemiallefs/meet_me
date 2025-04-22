@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 
 const IndexPage = () => (
   <Layout
-    title = "About"
+    title = "Noemi AF · About"
   >
     <Masthead />
     <InternationalProjection />

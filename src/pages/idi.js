@@ -13,7 +13,7 @@ const SectionIdi = styled(SectionPlain)`
 const IdiPage = () => {
   return (
     <Layout
-      title = "R&D"
+      title = "Noemi AF · R&D"
     >
       <SectionIdi>
         <Grid>

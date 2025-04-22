@@ -8,7 +8,7 @@ import { Grid, CardWrapper, CardHeader, CardBody, CardFooter, StyledLink } from 
 const ScCommunicationPage = () => {
   return (
     <Layout
-      title="Sc.Communication"
+      title="Noemi AF · Sc.Communication"
     >
       <SectionPlain>
         <Grid>

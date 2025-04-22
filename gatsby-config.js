@@ -4,12 +4,13 @@ module.exports = {
     description: `Discover Noemi Álvarez Fernández's work and research in Data Science and STEM.`,
     author: `Noemi Álvarez Fernández`,
     keywords: `Noemi Alvarez Fernandez, STEM, scientist, Data Scientist`,
-    siteUrl: `https://noemiallefs.com`,
+    siteUrl: `https://noemi-af.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
 
     `gatsby-plugin-smoothscroll`,
 
@@ -66,14 +67,6 @@ module.exports = {
           },
         ],
       },
-    },
-
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/sitemap.xml`,
-        exclude: ['/404', '/dev-404-page', '/offline-plugin-app-shell-fallback'],
-      },
-    },
+    }
   ],
 };
