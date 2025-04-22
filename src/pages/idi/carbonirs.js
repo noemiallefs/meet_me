@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../../components/LayoutDark";
 
 import { SectionPostL } from "../../styles/SectionStyles";
-import { HeaderProject, ListProject, ColorBox } from "../../styles/ProjectStyles";
+import { HeaderProject } from "../../styles/ProjectStyles";
 
 const PhdPage = () => {
   return (

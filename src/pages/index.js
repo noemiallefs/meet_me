@@ -6,11 +6,11 @@ import InternationalProjection from '../components/InternationalProjection';
 import Profile from "../components/Profile";
 import Cv from "../components/CV";
 import Contact from "../components/Contact";
-import Seo from "../components/Seo";
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="About" />
+  <Layout
+    title = "About"
+  >
     <Masthead />
     <InternationalProjection />
     <Profile />

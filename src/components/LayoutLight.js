@@ -7,10 +7,10 @@ import Nav from "./NavLight";
 import Footer from "./Footer";
 
 
-export default function LayoutLight({ children }) {
+export default function LayoutLight({ children, title }) {
   return (
     <>
-      <Seo />
+      <Seo title={title} />
       <GlobalStyle />
       <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
         <Nav />

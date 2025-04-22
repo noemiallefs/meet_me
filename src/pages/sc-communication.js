@@ -1,15 +1,15 @@
 import React from "react";
 
 import Layout from "../components/LayoutDark";
-import Seo from "../components/Seo";
 
 import { SectionPlain } from "../styles/SectionStyles";
 import { Grid, CardWrapper, CardHeader, CardBody, CardFooter, StyledLink } from "../styles/PinkCards.js";
 
 const ScCommunicationPage = () => {
   return (
-    <Layout>
-      <Seo title="Sc.Communication" />
+    <Layout
+      title="Sc.Communication"
+    >
       <SectionPlain>
         <Grid>
 

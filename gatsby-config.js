@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Noemi Álvarez Fernández`,
-    description: `Come and meet me and my research`,
-    author: `@noemiallefs`,
+    description: `Discover Noemi Álvarez Fernández's work and research in Data Science and STEM.`,
+    author: `Noemi Álvarez Fernández`,
     keywords: `Noemi Alvarez Fernandez, STEM, scientist, Data Scientist`,
     siteUrl: `https://noemiallefs.com`,
   },
@@ -14,42 +14,17 @@ module.exports = {
     `gatsby-plugin-smoothscroll`,
 
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-react-helmet`,
 
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gastby-starter-default`,
-        short_name: `starter`,
+        name: `Noemi Álvarez Fernández`,
+        short_name: `Noemi`,
         start_url: `/`,
         background_color: `#FFDEDE`,
         theme_color: `#FFDEDE`,
         display: `minimal-ui`,
         icon: `src/images/profile.webp`,
-      },
-    },
-
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [`G-NERZKBVL1C`],
-        gtagConfig: {
-          optimize_ip: true,
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: true,
-          respectDNT: true,
-          exclude: ["/preview/**"],
-          origin: "https://www.noemiallefs.com",
-        },
-      },
-    },
-
-    {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-      options: {
-        siteUrl: `https://noemiallefs.com`,
       },
     },
 
@@ -93,7 +68,12 @@ module.exports = {
       },
     },
 
-    `gatsby-plugin-sitemap`,
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        exclude: ['/404', '/dev-404-page', '/offline-plugin-app-shell-fallback'],
+      },
+    },
   ],
 };

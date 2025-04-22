@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import Layout from "../components/LayoutDark";
-import Seo from "../components/Seo";
 
 import { SectionPlain } from "../styles/SectionStyles";
 import { Grid, CardWrapper, CardHeader, CardBody, CardFooter, StyledLink } from "../styles/PinkCards.js";
@@ -13,8 +12,9 @@ const SectionIdi = styled(SectionPlain)`
 
 const IdiPage = () => {
   return (
-    <Layout>
-      <Seo title="I+D+i" />
+    <Layout
+      title = "R&D"
+    >
       <SectionIdi>
         <Grid>
 
