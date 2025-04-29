@@ -7,14 +7,16 @@ import Nav from "./NavLight";
 import Footer from "./Footer";
 
 
-export default function LayoutLight({ children }) {
+export default function LayoutLight({ children, title }) {
   return (
     <>
-      <Seo />
+      <Seo title={title} />
       <GlobalStyle />
-      <Nav />
-        {children}
-      <Footer />
+      <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+        <Nav />
+        <main style={{ flex: 1 }}>{children}</main>
+        <Footer />
+      </div>
     </>
   )
 }

@@ -1,111 +1,72 @@
 module.exports = {
   siteMetadata: {
     title: `Noemi Álvarez Fernández`,
-    description: `Come and meet me and my research`,
-    author: `@noemiallefs`,
+    description: `Discover Noemi Álvarez Fernández's work and research in Data Science and STEM.`,
+    author: `Noemi Álvarez Fernández`,
     keywords: `Noemi Alvarez Fernandez, STEM, scientist, Data Scientist`,
-    siteUrl: `https://noemiallefs.com`,
+    siteUrl: `https://noemi-af.netlify.app/`,
   },
-
   plugins: [
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-smoothscroll`,
-
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'gastby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#FFDEDE',
-        theme_color: '#FFDEDE',
-        display: 'minimal-ui',
-        icon: '/src/images/profile.webp' 
-      },
-    },
     `gatsby-transformer-sharp`,
-    
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
 
-    'gatsby-plugin-sitemap',
+    `gatsby-plugin-smoothscroll`,
+
+    `gatsby-plugin-styled-components`,
 
     {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        siteUrl: 'https://noemiallefs.com',
+        name: `Noemi Álvarez Fernández`,
+        short_name: `Noemi`,
+        start_url: `/`,
+        background_color: `#FFDEDE`,
+        theme_color: `#FFDEDE`,
+        display: `minimal-ui`,
+        icon: `src/images/profile.webp`,
       },
     },
 
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://noemiallefs.com',
-        sitemap: 'https://noemiallefs.com/sitemap-index.xml',
-        policy: [{userAgent: '*', allow: '/'}],
+        host: `https://noemiallefs.com`,
+        sitemap: `https://noemiallefs.com/sitemap-index.xml`,
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
 
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-omni-font-loader`,
       options: {
-        trackingIds: [
-          "G-NERZKBVL1C",
-        ],
-        gtagConfig: {
-          optimize_ip: true,
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: true,
-          respectDNT: true,
-          exclude: ["/preview/**"],
-          origin: "https://www.noemiallefs.com",
-          displayOnRouteUpdate: 0,
-        },
-      },
-    },
-    
-    {
-      resolve: "gatsby-omni-font-loader",
-    
-      options: {
-
         mode: "async",
         enableListener: true,
         preconnect: ["https://fonts.gstatic.com"],
-    
         web: [
           {
             name: "Zilla Slab Highlight",
             file: "https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap",
           },
-
           {
             name: "Red Hat Mono",
             file: "https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap",
           },
-
           {
             name: "Oswald",
             file: "https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap",
           },
-
           {
             name: "Rajdhani",
             file: "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600&display=swap",
           },
-
           {
             name: "Saira Extra Condensed",
             file: "https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap",
           },
-
         ],
       },
-    },
-
+    }
   ],
-}
+};
