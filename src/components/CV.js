@@ -159,10 +159,10 @@ const Cv = () => {
         <Event><strong>Desarollador de I+D en Tecnologías de Datos</strong> | Boscalia Technoligies</Event>
         <EventWrap>
           <List>
-            <li>Diseño y optimización de bases de datos en MySQL, desarrollo de plantillas en LaTeX y automatización de processos mediente programación en R y Python.</li>
-            <li>Creación y optimización de algoritmos de Machine Learning (ML) aplicados a datos espectroscópicos, fisicoquímicos y satelitales.</li>
-            <li>Liderazgo en el diseño y ejecución de proyectos de I+D+i, con enfoque en innovación y resultados concretos.</li>
-            <li>Identificación y análisis de convocatorias de I+D+i, además de la redacción y presentación de proyectos científico-técnicos y memorias.</li>
+            <li>Design and optimization of databases in MySQL, development of templates in LaTeX, and automation of processes through programming in R and Python.</li>
+            <li>Creation and optimization of Machine Learning (ML) algorithms applied to spectroscopic, physicochemical, and satellite data.</li>
+            <li>Leadership in the design and execution of R&D&I projects, with a focus on innovation and concrete results.</li>
+            <li>Identification and analysis of R&D&I calls, as well as the writing and presentation of scientific-technical projects and reports.</li>
           </List>
         </EventWrap>
         <Event><strong>Reviewer</strong></Event>
