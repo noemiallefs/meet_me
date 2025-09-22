@@ -387,7 +387,7 @@ const Cv = () => {
           </CardHeader>
           <CardBody>
             <strong>Statistics:</strong> R, Python <br />
-            <strong>Programming:</strong> R, Python <br />
+            <strong>Programming:</strong> R, Python, Matlab <br />
             <strong>Web development:</strong> HTML, CSS, JavaScript, PHP <br />
             <strong>Text editors:</strong> LaTex, Markdown <br />
             <strong>Maps:</strong> R, Python, QGIS <br />
