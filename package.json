@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@parcel/watcher": "^2.5.1",
     "@styled-icons/boxicons-logos": "^10.47.0",
     "@styled-icons/entypo": "^10.46.0",
     "@styled-icons/foundation": "^10.46.0",
