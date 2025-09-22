@@ -155,14 +155,27 @@ const Cv = () => {
         <VerticalLineHeader />
         <HeaderCV>Expertise</HeaderCV>
         <VerticalLineDate />
-        <Date>2022 - 2025</Date>
-        <Event><strong>Desarollador de I+D en Tecnologías de Datos</strong> | Boscalia Technoligies</Event>
+        <Date>2025 - now</Date>
+        <Event><strong>R&D&I Researcher</strong> | ANFACO-CYTMA</Event>
         <EventWrap>
           <List>
-            <li>Diseño y optimización de bases de datos en MySQL, desarrollo de plantillas en LaTeX y automatización de processos mediente programación en R y Python.</li>
-            <li>Creación y optimización de algoritmos de Machine Learning (ML) aplicados a datos espectroscópicos, fisicoquímicos y satelitales.</li>
-            <li>Liderazgo en el diseño y ejecución de proyectos de I+D+i, con enfoque en innovación y resultados concretos.</li>
-            <li>Identificación y análisis de convocatorias de I+D+i, además de la redacción y presentación de proyectos científico-técnicos y memorias.</li>
+            <li>Bioinformatics line in collaboration with a spectroscopy laboratory line.</li>
+            <li>Design and execution of Research, Development and Innovation (R&D&I) projects.</li>
+            <li>Participation in projects of the Cervera Excellence Network, focused on innovation in protein sources for the development of functional foods, prioritizing sustainability processes, health impact, and consumer demands.</li>
+            <li>Development, optimization, and implementation of algorithms and pipelines for the processing of omics data (genomics, transcriptomics, epigenomics, single-cell mRNA, proteomics, and metabolomics).</li>
+            <li>Implementation of algorithms for data processing.</li>
+            <li>Drafting of applications and technical reports for public/private projects within the area of expertise.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
+        <Date>2022 - 2025</Date>
+        <Event><strong>R&D Researcher in Bioinformatics and Biostatistics</strong> | Boscalia Technoligies</Event>
+        <EventWrap>
+          <List>
+            <li>Design and optimization of databases in MySQL, development of templates in LaTeX, and automation of processes through programming in R and Python.</li>
+            <li>Creation and optimization of Machine Learning (ML) algorithms applied to spectroscopic, physicochemical, and satellite data.</li>
+            <li>Leadership in the design and execution of R&D&I projects, with a focus on innovation and concrete results.</li>
+            <li>Identification and analysis of R&D&I calls, as well as the writing and presentation of scientific-technical projects and reports.</li>
           </List>
         </EventWrap>
         <Event><strong>Reviewer</strong></Event>
@@ -374,7 +387,7 @@ const Cv = () => {
           </CardHeader>
           <CardBody>
             <strong>Statistics:</strong> R, Python <br />
-            <strong>Programming:</strong> R, Python <br />
+            <strong>Programming:</strong> R, Python, Matlab <br />
             <strong>Web development:</strong> HTML, CSS, JavaScript, PHP <br />
             <strong>Text editors:</strong> LaTex, Markdown <br />
             <strong>Maps:</strong> R, Python, QGIS <br />

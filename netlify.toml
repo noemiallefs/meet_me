@@ -1,0 +1,2 @@
+[build]
+  command = "npm rebuild && npm run build"
