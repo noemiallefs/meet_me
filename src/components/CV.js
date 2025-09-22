@@ -155,8 +155,21 @@ const Cv = () => {
         <VerticalLineHeader />
         <HeaderCV>Expertise</HeaderCV>
         <VerticalLineDate />
+        <Date>2025 - now</Date>
+        <Event><strong>R&D&I Researcher</strong> | ANFACO-CYTMA</Event>
+        <EventWrap>
+          <List>
+            <li>Bioinformatics line in collaboration with a spectroscopy laboratory line.</li>
+            <li>Design and execution of Research, Development and Innovation (R&D&I) projects.</li>
+            <li>Participation in projects of the Cervera Excellence Network, focused on innovation in protein sources for the development of functional foods, prioritizing sustainability processes, health impact, and consumer demands.</li>
+            <li>Development, optimization, and implementation of algorithms and pipelines for the processing of omics data (genomics, transcriptomics, epigenomics, single-cell mRNA, proteomics, and metabolomics).</li>
+            <li>Implementation of algorithms for data processing.</li>
+            <li>Drafting of applications and technical reports for public/private projects within the area of expertise.</li>
+          </List>
+        </EventWrap>
+        <VerticalLineDate />
         <Date>2022 - 2025</Date>
-        <Event><strong>Desarollador de I+D en Tecnologías de Datos</strong> | Boscalia Technoligies</Event>
+        <Event><strong>R&D Researcher in Bioinformatics and Biostatistics</strong> | Boscalia Technoligies</Event>
         <EventWrap>
           <List>
             <li>Design and optimization of databases in MySQL, development of templates in LaTeX, and automation of processes through programming in R and Python.</li>
